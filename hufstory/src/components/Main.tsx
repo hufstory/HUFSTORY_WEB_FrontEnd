@@ -1,10 +1,9 @@
-import React from "react";
-
+import React from "react"
 
 const Main = () => {
   return (
     <div>
-      <h1>Hufstory main page</h1>
+      Hufstory Main Page
     </div>
   )
 }
