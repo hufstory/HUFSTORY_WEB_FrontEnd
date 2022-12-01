@@ -1,7 +1,6 @@
 import React from "react"
 
 import Header from "../components/Header"
-import Main from "../components/Main"
 import Footer from "../components/Footer"
 
 //
@@ -9,7 +8,9 @@ const MainPage = () => {
   return (
     <div>
       <Header />
-      <Main />
+      <div>
+        <h1>About</h1>
+      </div>
       <Footer />
     </div>
   )
