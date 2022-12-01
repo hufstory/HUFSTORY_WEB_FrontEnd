@@ -1,11 +1,15 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Index from "./pages/Index"
 
 function App() {
   return (
-    <div>
-      <h1>Hufstory</h1>
-    </div>
-  );
+    <Router>
+      <Routes>
+        <Route path="/" element={<Index />} />
+      </Routes>
+    </Router>
+  )
 }
 
 export default App;
