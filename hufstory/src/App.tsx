@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import MainPage from "./pages/MainPage"
+import Main from "./pages/Main"
 import About from "./pages/About"
 import Members from "./pages/Members"
 import Recruit from "./pages/Recruit"
@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<MainPage />} />
+        <Route path="/" element={<Main />} />
         <Route path="/about" element={<About />} />
         <Route path="/members" element={<Members />} />
         <Route path="/recruit" element={<Recruit />} />

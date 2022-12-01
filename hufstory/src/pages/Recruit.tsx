@@ -4,7 +4,7 @@ import Header from "../components/Header"
 import Footer from "../components/Footer"
 
 //
-const MainPage = () => {
+const Recruit = () => {
   return (
     <div>
       <Header />
@@ -16,4 +16,4 @@ const MainPage = () => {
   )
 }
 
-export default MainPage
+export default Recruit
