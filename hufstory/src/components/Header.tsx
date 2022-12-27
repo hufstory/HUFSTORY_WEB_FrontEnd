@@ -9,7 +9,7 @@ const Header = () => {
           className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
           to="/"
         >
-          <span className="ml-3 text-2xl text-sky-500">Hufstory</span>
+          <span className="ml-5 text-2xl text-sky-500">Hufstory</span>
         </Link>
         <nav className="md:ml-auto flex flex-nowrap items-center text-base justify-center">
           <Link to="/about" className="mr-5 hover:text-gray-900">
