@@ -1,6 +1,6 @@
-import React from "react";
+import React from "react"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import Main from "./pages/Main"
+import Index from "./pages/Index"
 import About from "./pages/About"
 import Members from "./pages/Members"
 import Recruit from "./pages/Recruit"
@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/" element={<Index />} />
         <Route path="/about" element={<About />} />
         <Route path="/members" element={<Members />} />
         <Route path="/recruit" element={<Recruit />} />
@@ -21,4 +21,4 @@ function App() {
   )
 }
 
-export default App;
+export default App
