@@ -3,7 +3,11 @@ module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      boxShadow: {
+        'default' : '4px 12px 30px 6px rgba(0, 0, 0, 0.09)',
+      }
+    },
   },
   variants: {
     extend: {},
