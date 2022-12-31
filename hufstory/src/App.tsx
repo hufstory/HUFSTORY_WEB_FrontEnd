@@ -2,7 +2,7 @@ import React from "react"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Main from "./pages/Main"
 import About from "./pages/About"
-import Members from "./pages/Members"
+import Teams from "./pages/Teams"
 import Recruit from "./pages/Recruit"
 import Blog from "./pages/Blog"
 
@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/about" element={<About />} />
-        <Route path="/members" element={<Members />} />
+        <Route path="/teams" element={<Teams />} />
         <Route path="/recruit" element={<Recruit />} />
         <Route path="/blog" element={<Blog />} />
       </Routes>
