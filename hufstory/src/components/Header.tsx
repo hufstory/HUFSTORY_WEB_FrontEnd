@@ -15,8 +15,8 @@ const Header = () => {
           <Link to="/about" className="mr-5 hover:text-gray-900">
             ABOUT
           </Link>
-          <Link to="/members" className="mr-5 hover:text-gray-900">
-            MEMBERS
+          <Link to="/teams" className="mr-5 hover:text-gray-900">
+            TEAMS
           </Link>
           <Link to="/recruit" className="mr-5 hover:text-gray-900">
             RECRUIT
