@@ -1,7 +1,7 @@
 import React from "react"
 
-import Header from "../components/Header"
-import Footer from "../components/Footer"
+import Header from "../../components/Header"
+import Footer from "../../components/Footer"
 
 //
 const Teams = () => {
@@ -14,23 +14,23 @@ const Teams = () => {
             Teams
           </h2>
           <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
-            팀
+            2022 - 현재 진행 팀
           </h1>
           <div className="flex flex-wrap lg:flex lg:flex-row place-content-center mt-8">
-            <p className="text-gray-600 bg-white border-b-2 border-indigo-400 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
-              학회소개
+            <p className="text-gray-600 bg-white border-b-2 border-sky-400 py-2 px-8 hover:text-sky-600 hover:border-sky-600 text-lg">
+              훕포메이션
             </p>
             <p className="text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
-              학회활동
+              외대 종합 스터디 프로그램
             </p>
             <p className="text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
-              연혁
+              외대 청원
             </p>
             <p className="text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
-              학회장
+              훕스토리 사이트 제작
             </p>
             <p className="text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
-              지도교수
+              외상청
             </p>
           </div>
         </div>
