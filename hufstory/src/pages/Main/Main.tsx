@@ -1,5 +1,5 @@
 import React from "react"
-import MainHeader from "../../components/MainHeader"
+import Header from "../../components/Header"
 import Footer from "../../components/Footer"
 
 import hufstoryLogo from "../../static/images/logo/HufstoryLogo.png"
@@ -8,7 +8,7 @@ import programmerImage from "../../static/images/assets/programming.png"
 const Main = () => {
   return (
     <div>
-      <MainHeader />
+      <Header />
 
       <div className="ml-36 mr-36 mt-8 md:px-5 md:py-5 md:flex-row items-center">
         <div className="flex mt-10 mb-10 text-black body-font bg-transparent relative p-10 rounded-[14px] shadow-default hover:-translate-y-1 hover:scale-100 duration-300">
