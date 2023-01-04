@@ -5,7 +5,7 @@ const Footer = () => {
   const CURRENT_YEAR = CURRENT_DAY.getFullYear()
 
   return (
-    <footer className="text-gray-700 body-font">
+    <footer className="text-gray-700 font-nanumLight">
       <div className="bg-gray-200">
         <div className="container mx-auto pt-4 px-5 flex flex-wrap flex-col sm:flex-row">
           <p className="text-gray-500 text-sm text-center sm:text-left">
