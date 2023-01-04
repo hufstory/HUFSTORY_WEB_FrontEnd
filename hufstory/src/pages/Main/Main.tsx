@@ -1,29 +1,16 @@
 import React from "react"
-import Header from "../components/Header"
-import Footer from "../components/Footer"
+import MainHeader from "../../components/MainHeader"
+import Footer from "../../components/Footer"
 
-import hufstoryLogo from "../static/images/logo/HufstoryLogo.png"
-import programmerImage from "../static/images/assets/programming.png"
+import hufstoryLogo from "../../static/images/logo/HufstoryLogo.png"
+import programmerImage from "../../static/images/assets/programming.png"
 
 const Main = () => {
   return (
     <div>
-      <Header />
+      <MainHeader />
 
       <div className="ml-36 mr-36 mt-8 md:px-5 md:py-5 md:flex-row items-center">
-
-        {/*
-        <div className="inline-block ml-10 hover:-translate-y-1 hover:scale-100 duration-300">
-          <img src={hufstoryLogo} alt="MainHufstory"></img>
-        </div>
-        <div className="inline-block">
-          무언가 더 채워넣을 것 무언가 더 채워넣을 것 무언가 더 채워넣을 것
-          무언가 더 채워넣을 것 무언가 더 채워넣을 것
-        </div>
-
-        <hr className="h-px bg-gray-200"></hr>
-        */}
-
         <div className="flex mt-10 mb-10 text-black body-font bg-transparent relative p-10 rounded-[14px] shadow-default hover:-translate-y-1 hover:scale-100 duration-300">
           <div className="mt-8 w-[32rem] block">
             <h1 className="block w-80 font-bold text-3xl mb-5">
