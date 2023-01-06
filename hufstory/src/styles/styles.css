@@ -593,6 +593,10 @@ video {
   }
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
@@ -615,8 +619,32 @@ video {
   left: 0px;
 }
 
+.left-\[300px\] {
+  left: 300px;
+}
+
+.top-\[-10px\] {
+  top: -10px;
+}
+
+.top-\[217px\] {
+  top: 217px;
+}
+
 .z-50 {
   z-index: 50;
+}
+
+.z-40 {
+  z-index: 40;
+}
+
+.z-30 {
+  z-index: 30;
+}
+
+.z-20 {
+  z-index: 20;
 }
 
 .mx-auto {
@@ -680,6 +708,14 @@ video {
   margin-right: 52px;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -712,8 +748,16 @@ video {
   height: 100%;
 }
 
-.h-\[200px\] {
-  height: 200px;
+.h-\[100px\] {
+  height: 100px;
+}
+
+.h-\[220px\] {
+  height: 220px;
+}
+
+.h-\[520px\] {
+  height: 520px;
 }
 
 .w-full {
@@ -726,6 +770,14 @@ video {
 
 .w-80 {
   width: 20rem;
+}
+
+.w-\[250px\] {
+  width: 250px;
+}
+
+.w-\[420px\] {
+  width: 420px;
 }
 
 .max-w-full {
@@ -793,12 +845,12 @@ video {
   justify-content: center;
 }
 
-.overflow-hidden {
-  overflow: hidden;
-}
-
 .rounded-\[14px\] {
   border-radius: 14px;
+}
+
+.rounded-\[36px\] {
+  border-radius: 36px;
 }
 
 .rounded {
@@ -830,6 +882,11 @@ video {
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.bg-represent-color {
+  --tw-bg-opacity: 1;
+  background-color: rgb(161 204 251 / var(--tw-bg-opacity));
 }
 
 .bg-sky-500 {
@@ -885,6 +942,10 @@ video {
   font-family: NanumRegular, sans-serif;
 }
 
+.font-nanumBold {
+  font-family: NanumBold, sans-serif;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -908,6 +969,14 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-\[34px\] {
+  font-size: 34px;
+}
+
+.text-\[28px\] {
+  font-size: 28px;
 }
 
 .text-xs {
@@ -952,6 +1021,11 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.text-title-color {
+  --tw-text-opacity: 1;
+  color: rgb(61 163 251 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -982,6 +1056,12 @@ video {
   font-family: "NanumRegular";
 
   src: url("../static/font/NanumSquareNeo-bRg.ttf");
+}
+
+@font-face {
+  font-family: "NanumBold";
+
+  src: url("../static/font/NanumSquareNeo-cBd.ttf");
 }
 
 .hover\:-translate-y-1:hover {
