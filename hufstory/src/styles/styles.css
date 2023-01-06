@@ -652,6 +652,14 @@ video {
   margin-top: 2rem;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -664,16 +672,12 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
 .mb-20 {
   margin-bottom: 5rem;
+}
+
+.mr-\[52px\] {
+  margin-right: 52px;
 }
 
 .mt-4 {
@@ -724,8 +728,8 @@ video {
   width: 20rem;
 }
 
-.w-\[28rem\] {
-  width: 28rem;
+.max-w-full {
+  max-width: 100%;
 }
 
 @-webkit-keyframes bounce {
@@ -787,6 +791,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded-\[14px\] {
