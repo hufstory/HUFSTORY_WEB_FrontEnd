@@ -11,3 +11,8 @@
   font-family: "NanumRegular";
   src: url("../static/font/NanumSquareNeo-bRg.ttf");
 }
+
+@font-face {
+  font-family: "NanumBold";
+  src: url("../static/font/NanumSquareNeo-cBd.ttf");
+}
