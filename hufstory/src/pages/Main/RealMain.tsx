@@ -3,15 +3,22 @@ import Header from "../../components/Header"
 import Footer from "../../components/Footer"
 
 import titleLogo from "../../static/images/logo/titleLogo.png"
+import titleLogo2 from "../../static/images/logo/titleLogo2.png"
+import catChar from "../../static/images/assets/catChar.png"
+import child from "../../static/images/assets/child.png"
 
 const RealMain = () => {
   return (
     <div>
       <Header />
 
-      <div className="flex max-w-full h-full ml-36 mx-auto mb-20 font-nanumLight">
+      <div className="flex max-w-full h-full ml-36 mx-auto md:flex-row mb-20 font-nanumLight">
         <div className="block mt-8 w-[32rem] mr-[52px]">
-          <img className="block h-[200px]" src={titleLogo} alt="title"></img>
+          <img
+            className="block h-[100px] mb-16"
+            src={titleLogo2}
+            alt="title2"
+          ></img>
           <div className="w-[32rem]">
             <h2 className="font-nanumRegular ml-36 text-base">훕스토리란?</h2>
             <p className="mt-1 mb-6 ml-36">
@@ -42,22 +49,24 @@ const RealMain = () => {
           </div>
         </div>
 
-        <div className="overflow-hidden">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="947"
-            height="985"
-            viewBox="0 0 947 985"
-          >
-            <rect
-              id="사각형_4"
-              data-name="사각형 4"
-              width="947"
-              height="985"
-              rx="59"
-              fill="#95ceff"
-            />
-          </svg>
+        <div className="relative w-full bg-represent-color rounded-[36px]">
+          <p className="absolute z-40 left-[300px] mt-10 text-title-color text-[34px] font-nanumRegular">
+            Come to HUFS,<br></br>Meet the World
+          </p>
+
+          <p className="absolute z-40 left-[300px] mt-40 text-title-color text-[28px] font-nanumLight">
+            외대를 만나면, 세계가 보인다!
+          </p>
+          <img
+            className="absolute z-30 top-[-10px] w-[250px] h-[220px]"
+            src={child}
+            alt="child"
+          ></img>
+          <img
+            className="absolute z-20 top-[217px] left-[300px] w-[420px] h-[520px]"
+            src={catChar}
+            alt="catChar"
+          ></img>
         </div>
       </div>
 
