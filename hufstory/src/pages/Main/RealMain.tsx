@@ -4,7 +4,8 @@ import Footer from "../../components/Footer"
 
 import titleLogo from "../../static/images/logo/titleLogo.png"
 import titleLogo2 from "../../static/images/logo/titleLogo2.png"
-import catChar from "../../static/images/assets/catChar.png"
+import cat from "../../static/images/assets/cat.png"
+import greenMonster from "../../static/images/assets/greenMonster.png"
 import child from "../../static/images/assets/child.png"
 
 const RealMain = () => {
@@ -50,22 +51,27 @@ const RealMain = () => {
         </div>
 
         <div className="relative w-full bg-represent-color rounded-[36px]">
-          <p className="absolute z-40 left-[300px] mt-10 text-title-color text-[34px] font-nanumRegular">
+          <p className="absolute z-40 left-[330px] mt-10 text-title-color text-[34px] font-nanumRegular animate-titleMove animation-delay-300">
             Come to HUFS,<br></br>Meet the World
           </p>
 
-          <p className="absolute z-40 left-[300px] mt-40 text-title-color text-[28px] font-nanumLight">
+          <p className="absolute z-40 left-[330px] mt-40 text-title-color text-[28px] font-nanumLight animate-titleMove animation-delay-300">
             외대를 만나면, 세계가 보인다!
           </p>
           <img
-            className="absolute z-30 top-[-10px] w-[250px] h-[220px]"
+            className="absolute z-30 top-[-10px] w-[300px] animate-childMove"
             src={child}
             alt="child"
           ></img>
           <img
-            className="absolute z-20 top-[217px] left-[300px] w-[420px] h-[520px]"
-            src={catChar}
-            alt="catChar"
+            className="absolute z-30 top-[437px] left-[297px] w-[420px] h-[300px] animate-catMove"
+            src={cat}
+            alt="cat"
+          ></img>
+          <img
+            className="absolute z-20 top-[200px] left-[517px] w-[200px] h-[500px] animate-greenMove"
+            src={greenMonster}
+            alt="greenMonster"
           ></img>
         </div>
       </div>
