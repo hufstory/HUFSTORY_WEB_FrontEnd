@@ -7,5 +7,5 @@
     - 컴퓨터전자시스템공학부 임동혁
     
 
-##Last Updates
+## Last Updates
 - Version 0.1 HufStory Web Site -> Main Page, Recruit was Updated by DongHyeok Lim, 2022.01.09
