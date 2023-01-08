@@ -13,7 +13,7 @@ const Footer = () => {
           </p>
           <span className="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm">
             경기도 용인시 처인구 모현읍 외대로 81, 한국외국어대학교 글로벌캠퍼스
-            학생회관 000호
+            학생회관 313호
           </span>
         </div>
         <div className="container mx-auto pb-4 px-5 flex flex-wrap flex-col sm:flex-row">
