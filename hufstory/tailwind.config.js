@@ -4,10 +4,6 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      backgroundImage: {
-        title: "url('../../static/images/logo/titleLogo2.png')",
-      },
-
       keyframes: {
         appear: {
           "0%": {
@@ -66,7 +62,22 @@ module.exports = {
             transform: "translateX(300%)",
           },
           "75%": {
-            transform: "translateX(-3%) translateY(-3%)",
+            opacity: "0.7",
+            transform: "translateX(-3%)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateX(0)",
+          },
+        },
+
+        alphabetMove: {
+          "0%": {
+            opacity: "0",
+            transform: "translateX(-50%)",
+          },
+          "75%": {
+            transform: "translateX(-3%)",
           },
           "100%": {
             opacity: "1",
@@ -80,7 +91,9 @@ module.exports = {
         childMove: "childMove 0.7s ease-in-out",
         catMove: "catMove 0.7s ease-in-out",
         greenMove: "greenMove 0.7s ease-in-out",
-        titleMove: "titleMove 1s ease-in-out 1500ms",
+        titleMove: "appear 2s ease-in-out",
+        cloverAppear: "appear 2s ease-in-out",
+        alphabetMove: "alphabetMove 2s ease-in-out",
       },
 
       colors: {
