@@ -4,6 +4,9 @@ import Main from "./pages/Main/Main"
 import RealMain from "./pages/Main/RealMain"
 import About from "./pages/About/About"
 import Teams from "./pages/Teams/Teams"
+import Teams_Oechul from "./pages/Teams/Teams_Oechul"
+import Teams_Gbus from "./pages/Teams/Teams_Gbus"
+import Teams_Hubigo from "./pages/Teams/Teams_Hubigo"
 import Recruit from "./pages/Recruit/Recruit"
 import Blog from "./pages/Blog/Blog"
 
@@ -15,6 +18,9 @@ function App() {
         <Route path="/" element={<RealMain />} />
         <Route path="/about" element={<About />} />
         <Route path="/teams" element={<Teams />} />
+        <Route path="/teams_oechul" element={<Teams_Oechul />} />
+        <Route path="/teams_gbus" element={<Teams_Gbus />} />
+        <Route path="/teams_hubigo" element={<Teams_Hubigo />} />
         <Route path="/recruit" element={<Recruit />} />
         <Route path="/blog" element={<Blog />} />
       </Routes>
