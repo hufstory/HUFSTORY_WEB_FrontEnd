@@ -760,6 +760,10 @@ video {
   margin-bottom: 0.25rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -1005,8 +1009,8 @@ video {
   }
 
   75% {
-    -webkit-transform: translateX(-3%);
-            transform: translateX(-3%);
+    -webkit-transform: translateX(3%);
+            transform: translateX(3%);
   }
 
   100% {
@@ -1024,8 +1028,8 @@ video {
   }
 
   75% {
-    -webkit-transform: translateX(-3%);
-            transform: translateX(-3%);
+    -webkit-transform: translateX(3%);
+            transform: translateX(3%);
   }
 
   100% {
@@ -1366,11 +1370,6 @@ video {
 .hover\:text-sky-600:hover {
   --tw-text-opacity: 1;
   color: rgb(2 132 199 / var(--tw-text-opacity));
-}
-
-.hover\:text-sky-400:hover {
-  --tw-text-opacity: 1;
-  color: rgb(56 189 248 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {

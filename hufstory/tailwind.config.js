@@ -77,7 +77,7 @@ module.exports = {
             transform: "translateX(-50%)",
           },
           "75%": {
-            transform: "translateX(-3%)",
+            transform: "translateX(3%)",
           },
           "100%": {
             opacity: "1",
