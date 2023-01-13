@@ -8,5 +8,5 @@
     
 
 ## Last Updates
-- Version 0.1 HufStory Web Site -> Main Page, Recruit was Updated by DongHyeok Lim, 2022.01.09
+- Version 0.1 HufStory Web Site -> Main, Recruit Page was Updated by DongHyeok Lim, 2022.01.09
 - Version 0.2 HufStory Web site -> About, Activity Page was Updated by DongHyeok Lim, 2022.01.13
