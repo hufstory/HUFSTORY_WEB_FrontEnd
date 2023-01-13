@@ -15,10 +15,10 @@ const RealMain = () => {
     <div>
       <Header />
 
-      <div className="flex max-w-full h-full ml-36 mx-auto md:flex-row mb-20 font-nanumLight">
-        <div className="block mt-8 w-[32rem] mr-[52px]">
+      <div className="flex max-w-full h-full ml-4 mr-4 md:ml-36 md:flex-row mb-20 font-nanumLight">
+        <div className="block mt-8 w-[32rem] md:mr-[52px]">
           <img
-            className="block h-[100px] mb-16 animate-appear"
+            className="block h-[70px] md:w-[511px] md:h-[100px] mb-16 animate-appear"
             src={titleLogo2}
             alt="title2"
           ></img>
@@ -30,9 +30,11 @@ const RealMain = () => {
           ></img>
           */}
           <section>
-            <div className="w-[32rem]">
-              <h2 className="font-nanumRegular ml-20 text-base">훕스토리란?</h2>
-              <p className="mt-1 mb-6 ml-20">
+            <div className="md:w-[32rem]">
+              <h2 className="font-nanumRegular md:ml-20 text-sm md:text-base">
+                훕스토리란?
+              </h2>
+              <p className="mt-1 mb-6 md:ml-20 text-sm md:text-base">
                 개발, 기획&디자인 팀으로 이루어진 교내 학생 자치기구입니다.
                 <br></br>
                 개발팀 & 기획 및 디자인 팀으로 구성되어 외대생을 비롯한
@@ -41,19 +43,19 @@ const RealMain = () => {
                 추구합니다.
               </p>
 
-              <h2 className="font-nanumRegular ml-20 text-base">
+              <h2 className="font-nanumRegular md:ml-20 text-sm md:text-base">
                 개발(Developer)
               </h2>
-              <p className="mt-1 mb-6 ml-20">
+              <p className="mt-1 mb-6 md:ml-20 text-sm md:text-base">
                 학부 과정에서는 쉽게 경험할 수 없는 다양한 기술을 사용하며{" "}
                 <br></br>
                 학부생의 실력에 그치지 않는 팀을 지향하고 있습니다.
               </p>
 
-              <h2 className="font-nanumRegular ml-20 text-base">
+              <h2 className="font-nanumRegular md:ml-20 text-sm md:text-base">
                 기획 & 디자인
               </h2>
-              <p className="mt-1 mb-6 ml-20">
+              <p className="mt-1 mb-6 md:ml-20 text-sm md:text-base">
                 주로 컨텐츠, 기획, 디자인을 하며 창의적인 활동을 지향하며 개발
                 파트를 맡은 팀원들과 함께 프로젝트를 진행합니다. 개발을 하며
                 프로젝트를 진행하며 IT 기획, 프로젝트에 필요한 디자인을 구상하고
@@ -65,7 +67,7 @@ const RealMain = () => {
           </section>
         </div>
 
-        <div className="relative w-full bg-represent-color rounded-[36px]">
+        <div className="hidden md:flex relative w-full bg-represent-color rounded-[36px]">
           <p className="absolute z-40 left-[330px] mt-10 text-title-color text-[34px] font-nanumRegular animate-titleMove">
             Come to HUFS,<br></br>Meet the World
           </p>
